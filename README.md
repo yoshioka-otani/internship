@@ -1,18 +1,23 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+*作業する前にリモートの最新情報をローカルに反映させておく
+git pull origin develop
+
+-------------------------------------------------------------
+
+*作業の途中途中でセーブ(ローカル)
+git add .
+git commit -m "メッセージ"　//メッセージはやったことを書く
+
+*ある程度作業が進んだらリモートに反映
+git push origin ブランチ名  //developやfeature-t1など
+-------------------------------------------------------------
+
+*Projectsは常に確認。新しいタスクに取り掛かるときは新しいブランチ(作業場)を作る
+git chekckout -b feature-◯◯  //feature-◯◯の中は、Projectsのt or p とNumber
+
+*ブランチ間の移動
+git checkout ブランチ名
+-------------------------------------------------------------
 
 
-Hi there! Welcome to Cloud9 IDE!
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
