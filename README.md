@@ -1,5 +1,5 @@
 
-*masterでは作業はしない
+*masterでは作業はしない(絶対)
 
 *作業する前にリモートの最新情報をローカルに反映させておく
 git pull origin develop
