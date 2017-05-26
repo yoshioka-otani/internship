@@ -339,14 +339,6 @@ header div.gnavi a:nth-of-type(8):hover{
 	height:100%;
 	}
 
-#keyvisual div.desk{
-	position:absolute;left:0;bottom:0;
-	width:100%;
-	height:28.00vh;
-	background-image:url(../images/table.gif);background-repeat:repeat;
-	background-position:0 0;background-size:auto 50%;
-	}
-
 #keyvisual div.title{
 	position:absolute;left:0;top:15.00vh;
 	width:100%;
@@ -371,54 +363,6 @@ header div.gnavi a:nth-of-type(8):hover{
 	}
 #keyvisual div.polygon.n3{
 	position:absolute;right:1vh;bottom:100px;
-	}
-
-#keyvisual p.obj a{
-	display:block;
-	width:100%;
-	height:100%;
-	}
-#keyvisual p.obj.float.n1{
-	position:absolute;left:3%;top:18.00vh;
-	width:28.63vh;
-	height:20.75vh;
-	}
-#keyvisual p.obj.float.n2{
-	position:absolute;left:17%;top:15.00vh;
-	width:18.75vh;
-	height:14.88vh;
-	}
-#keyvisual p.obj.float.n3{
-	position:absolute;left:75%;top:15.00vh;
-	width:17.13vh;
-	height:18.63vh;
-	}
-
-#keyvisual div.basebox{
-	position:absolute;left:50%;bottom:12.50vh;
-	width:100%;
-	height:0;
-	}
-
-#keyvisual p.obj.ondesk.n1{
-	position:absolute;left:-49%;bottom:1vh;
-	width:21.63vh;
-	height:25.25vh;
-	}
-#keyvisual p.obj.ondesk.n2{
-	position:absolute;left:-29%;bottom:0;
-	width:34.88vh;
-	height:18.50vh;
-	}
-#keyvisual p.obj.ondesk.n3{
-	position:absolute;left:1%;bottom:-2vh;
-	width:36.63vh;
-	height:23.13vh;
-	}
-#keyvisual p.obj.ondesk.n4{
-	position:absolute;left:31%;bottom:1vh;
-	width:21.00vh;
-	height:18.50vh;
 	}
 
 /*----------------------------------------------------------------*/
@@ -449,15 +393,6 @@ header div.gnavi a:nth-of-type(8):hover{
 	width:100%;
 	height:100%;
 	}
-
-#keyvisual div.desk{
-	position:absolute;left:0;bottom:0;
-	width:100%;
-	height:224px;
-	background-image:url(../images/table.gif);background-repeat:repeat;
-	background-position:0 0;background-size:auto 112px;
-	}
-
 #keyvisual div.title{
 	position:absolute;left:0;top:120px;
 	width:100%;
@@ -483,58 +418,10 @@ header div.gnavi a:nth-of-type(8):hover{
 #keyvisual div.polygon.n3{
 	position:absolute;right:8px;bottom:100px;
 	}
-
-#keyvisual p.obj a{
-	display:block;
-	width:100%;
-	height:100%;
-	}
-
-#keyvisual p.obj.float.n1{
-	position:absolute;left:3%;top:144px;
-	width:229px;
-	height:166px;
-	}
-#keyvisual p.obj.float.n2{
-	position:absolute;left:17%;top:120px;
-	width:150px;
-	height:119px;
-	}
-#keyvisual p.obj.float.n3{
-	position:absolute;left:75%;top:120px;
-	width:137px;
-	height:149px;
-	}
-
-#keyvisual div.basebox{
-	position:absolute;left:50%;bottom:100px;
-	width:100%;
-	height:0;
-	}
-
-#keyvisual p.obj.ondesk.n1{
-	position:absolute;left:-49%;bottom:16px;
-	width:173px;
-	height:202px;
-	}
-#keyvisual p.obj.ondesk.n2{
-	position:absolute;left:-29%;bottom:0;
-	width:279px;
-	height:148px;
-	}
-#keyvisual p.obj.ondesk.n3{
-	position:absolute;left:1%;bottom:-32px;
-	width:293px;
-	height:185px;
-	}
-#keyvisual p.obj.ondesk.n4{
-	position:absolute;left:31%;bottom:16px;
-	width:168px;
-	height:148px;
-	}
 } 
 /*---------------------otaki------------------------------------------------*/
 
+/*-----------------overview--------------------*/
 #overview {
 	width: 90%;
 	margin: 0 auto;
