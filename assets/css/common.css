@@ -12,47 +12,6 @@ body{
 	background: #f8f8f8;
 	font-family:'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
 }
-
-#wrapper{
-	position: relative;
-}
-
-#header{
-	position: fixed;
-	top:0px;
-	left:0px;
-	width: 100%;
-	min-width:1062px;
-	height:131px;
-	background: url(../images/bg_header.png) repeat-x;
-	z-index:999;
-}
-#header .gNavi{
-	position: relative;
-	text-align:center;
-	height:52px;
-	z-index: 10;
-	min-width: 1062px;
-}
-#header .gNavi li{
-	vertical-align:middle;
-	display:inline;
-	height:46px;
-	margin:0 25px;
-}
-#header .gNavi li a.now{
-	display:inline-block;
-	height:46px;
-	padding:0px 5px 0px 5px;
-	border-bottom:2px solid #f3e501;
-}
-#header .gNavi li img{
-	margin-top:18px;
-}
-
-#header .gNavi li.grayOut{
-	opacity: 0.7;
-}
 .pb0{
  padding-bottom:0 !important;
 }
