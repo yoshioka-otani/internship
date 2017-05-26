@@ -22,6 +22,7 @@ body {
 #wrap{
 	height:100%;
 	min-height:800px;
+	width: 100%;
 	opacity:0;
 	}
 
@@ -32,9 +33,11 @@ header{
 	height:70px;
 	background-color:#ffffff;
 	z-index:1;
+	overflow: hidden;
 	}
 header div.inner{
-	width:1096px;
+	/*width:1096px;*/
+	width: 100%;
 	height:70px;
 	background-color:#ffffff;
 	margin:0 auto 0 auto;
@@ -42,7 +45,8 @@ header div.inner{
 
 header div.gnavi a{
 	display:inline-block;
-	width:137px;
+	/*width:137px;*/
+	width: 12.5%;
 	height:67px;
 	font-size:0;
 	vertical-align:top;
@@ -98,9 +102,9 @@ header div.gnavi a:nth-of-type(8):hover{
 	background-image:url(../images/gnavi_09_on.gif);
 	}
 #keyvisual{
-	min-width:1096px;
+	/*min-width:1096px;*/
+	width: 100%;
 	height:100%;
-	overflow:hidden;
 	}
 #keyvisual div.inner{
 	position:relative;
@@ -312,7 +316,6 @@ header div.gnavi a:nth-of-type(8):hover{
 	width:100%;
 	}
 #keyvisual div.people div.box{
-	overflow:hidden;
 	white-space:nowrap;
 	text-align:center;
 	}
@@ -367,7 +370,6 @@ header div.gnavi a:nth-of-type(8):hover{
 	width:100%;
 	}
 #keyvisual div.people div.box{
-	overflow:hidden;
 	white-space:nowrap;
 	text-align:center;
 	}
@@ -409,6 +411,12 @@ header div.gnavi a:nth-of-type(8):hover{
 	}
 } 
 /*---------------------otaki------------------------------------------------*/
+#keyvisual div.people{
+	overflow: scroll;
+}
+#keyvisual div.people::-webkit-scrollbar {
+    width: 0px;
+}
 
 /*-----------------overview--------------------*/
 #overview {
