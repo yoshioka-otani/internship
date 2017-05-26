@@ -332,9 +332,12 @@ header div.gnavi a:nth-of-type(8):hover{
 	}
 
 #keyvisual div.title{
-	position:absolute;left:0;top:15.00vh;
+	position:absolute;
+	left:0;
+	top:15.00vh;
 	width:100%;
 	text-align:center;
+	overflow: hidden;
 	}
 #keyvisual h1{
 	height:3.25vh;
@@ -385,21 +388,17 @@ header div.gnavi a:nth-of-type(8):hover{
 	height:100%;
 	}
 #keyvisual div.title{
-	position:absolute;left:0;top:120px;
+	position:absolute;
+	left:0;
+	top:120px;
 	width:100%;
+	overflow: hidden;
 	text-align:center;
-	}
-#keyvisual div.title h1{
-	height:26px;
 	}
 #keyvisual div.title h2{
 	height:87px;
 	margin:24px 0 24px 0;
 	}
-#keyvisual div.title h3{
-	height:23px;
-	}
-
 #keyvisual div.polygon.n1{
 	position:absolute;left:8px;top:70px;
 	}
