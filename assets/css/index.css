@@ -35,6 +35,9 @@ header{
 	z-index:1;
 	overflow: hidden;
 	}
+header div.gnavi {
+	width: 100%;
+}
 header div.inner{
 	/*width:1096px;*/
 	width: 100%;
@@ -46,7 +49,7 @@ header div.inner{
 header div.gnavi a{
 	display:inline-block;
 	/*width:137px;*/
-	width: 12.5%;
+	width: 15%;
 	height:67px;
 	font-size:0;
 	vertical-align:top;
@@ -358,11 +361,10 @@ header div.gnavi a:nth-of-type(8):hover{
 	}
 #keyvisual div.polygon.n3{
 	position:absolute;right:1vh;bottom:100px;
-	}
+}
 
-/*----------------------------------------------------------------*/
 } @media (max-height: 800px){
-/*----------------------------------------------------------------*/
+
 #keyvisual p.bg{
 	position:absolute;left:-240px;top:100px;
 	height:491px;
@@ -409,7 +411,46 @@ header div.gnavi a:nth-of-type(8):hover{
 	position:absolute;right:8px;bottom:100px;
 	}
 } 
-/*---------------------otaki------------------------------------------------*/
+@media screen and (min-width: 769px) {
+	.under800 {
+		display: none;
+	}
+	.over800 {
+		display: block;
+	    position: absolute;
+	    left: 100px;
+	    top: 30px;
+	    /*font-weight: 700;*/
+	}
+	header .p-left {
+		padding-left: 450px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.over800 {
+		display: none;
+	}
+	.under800 {
+		display: block !important;
+	    position: absolute;
+	    left: 100px;
+	    top: 26px;
+	    /*font-weight: 700;*/
+	}
+	header .p-left {
+		padding-left: 290px;
+	}
+}
+#logo {
+	position: relative;
+}
+#logo img {
+	position: absolute;
+	height: 70px;
+	zoom: 0.8;
+	left: 4px;
+	top: 8px;
+}
 #keyvisual div.people{
 	overflow: scroll;
 }
