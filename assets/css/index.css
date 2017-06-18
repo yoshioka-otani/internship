@@ -454,19 +454,67 @@ header div.gnavi a:nth-of-type(8):hover{
 }
 /*---------------------yoshida------------------------------------------------*/
 
-.box1, .box2, .box3, .box4{
-  float: left;
-  width: 25%;
-  text-align: center;
-  line-height: 100px;
-  font-weight: bold;
-  font-size: 20px;
+#voice {
+	width: 100%;
 }
-.box1, .box2, .box3{
-  border-right: solid 2px blue;
+#voice .wrap_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.box0 {
-  border: solid 2px blue;
-  display: flex;
+#voice .box {
+    /* float: left; */
+    height: 150px;
+    width: 170px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    border: solid 3px #00FF66;
+    position: relative;
+    margin: 50px;
 }
+#voice .mbox {
+  float: left;
+  height:230px;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+  border: solid 2px transparent;
+  position:relative;
+}
+
+#voice .hasegawa-article{
+	display: none;
+}
+
+#voice .ishiduka-article{
+	display: none;
+}
+
+#voice .hanashita-article{
+	display: none;
+}
+#voice .mbox {
+  margin : 5px ;
+  padding : 25px 90px 25px 90px;
+  border: solid 1px transparent;
+  background-color :#33cc66;
+} 
+
+#voice .mbox p {
+	line-height: 135%;
+	font-family:"ＭＳ Ｐゴシック",sans-serif;
+}
+
+#voice .box p {
+	line-height: normal;
+}
+#voice .m-top {
+	position: absolute;
+    width: 100%;
+}
+
+
+
