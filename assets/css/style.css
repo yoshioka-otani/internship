@@ -1062,8 +1062,8 @@ footer p {
     margin-left: 80px;
 }
 .contentBox-block .contentBox_crosstalk_thumbnail {
-    width: 20%;
-    max-width: 140px;
+    width: 22%;
+    /*max-width: 140px;*/
     text-align: center;
 }
 .contentBox-block .contentBox_crosstalk_thumbnail figcaption {
@@ -1084,6 +1084,7 @@ footer p {
     border-width: 5px;
     border-style: solid;
     border-radius: 50%;
+    max-width: 140px;
 }
 .contentBox-block .contentBox_primary-title-l {
     font-size: 40px;
