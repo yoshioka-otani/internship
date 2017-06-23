@@ -472,8 +472,27 @@ header div.gnavi a:nth-of-type(8):hover{
     font-size: 12px;
     border: solid 3px #00FF66;
     position: relative;
-    margin: 50px;
+    margin: 0 3% 12px 3%;
 }
+
+
+
+#voice .box .rod {
+	color: #00FF66;
+}
+
+#voice .rod:hover{
+	color: white;
+}
+
+#voice .box:hover {
+	background-color: #00FF66 !important;
+	color: white !important;
+}
+
+	
+
+
 #voice .mbox {
   float: left;
   height:230px;
@@ -484,6 +503,8 @@ header div.gnavi a:nth-of-type(8):hover{
   border: solid 2px transparent;
   position:relative;
 }
+
+
 
 #voice .hasegawa-article{
 	display: none;
@@ -502,10 +523,10 @@ header div.gnavi a:nth-of-type(8):hover{
   border: solid 1px transparent;
   background-color :#33cc66;
 } 
-
 #voice .mbox p {
 	line-height: 135%;
 	font-family:"ＭＳ Ｐゴシック",sans-serif;
+	font-size: calc(20% + 0.8vw);
 }
 
 #voice .box p {
@@ -516,5 +537,47 @@ header div.gnavi a:nth-of-type(8):hover{
     width: 100%;
 }
 
+#voice .ishiduka:after {
+  display: none;
+  border-bottom: 20px solid #33cc66;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  content: '';
+  margin-left: -10px;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+}
+#voice .ishiduka-article{
+  padding: 30px;
+  position: relative;
+}
 
+#voice .hanashita-article{
+  padding: 30px;
+  position: relative;
+}
+#voice .hanashita-article:after {
+  border-bottom: 20px solid #33cc66;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  content: '';
+  margin-left: -10px;
+  position: absolute;
+  top: -20px;
+  left: 70%;
+}
+
+@media screen and (min-width:401px) and (max-width:768px) {
+	/*iPhone6 ~ iPad*/
+	#voice .mbox p {
+		font-size:10px;
+	}
+}
+@media screen and (max-width: 400px) {
+	/*~ iPhone6*/
+	#voice .mbox p {
+		
+	}
+}
 
