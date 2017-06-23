@@ -166,49 +166,49 @@ video {
     display: flex;
 }
 .bgGreen {
-    background: #78c8a0;
+    background: #d8effc;
 }
 .bgLightGreen {
     background: #d8f0e4;
 }
 .bgPink {
-    background: #fab6c0;
+    background: #d8effc;
 }
 .bgLightPink {
-    background: #fbe1e5;
+    background: #d8effc;
 }
 .bgTurquoise {
     background: #81d1db;
 }
 .bgBeige {
-    background: #faf8f5;
+    /*background: #faf8f5;*/
 }
 .bgOrange {
     background: #fbb797;
 }
 .bgLightBlue {
-    background: #d8effc;
+    background: #DDDDDD;
 }
 .bgLightYellow {
     background: #f7f2d0;
 }
 .bgBlue {
-    background: #96dcf0;
+    background: #DDDDDD;
 }
 .bdYellow {
-    border-color: #fae664;
+    border-color: #f7f2d0;
 }
 .bdPink {
-    border-color: #fab6c0;
-}
-.bdGreen {
-    border-color: #78c8a0;
-}
-.bdLightBlue {
     border-color: #d8effc;
 }
+.bdGreen {
+    border-color: #d8effc;
+}
+.bdLightBlue {
+    border-color: #DDDDDD;
+}
 .bdBlue {
-    border-color: #96dcf0;
+    border-color: #DDDDDD;
 }
 .mt-20 {
     margin-top: 20px!important;
@@ -971,8 +971,8 @@ footer p {
 .nameTag-lightBlue {
     right: 35%;
     bottom: 40px;
-    color: #96dcf0;
-    border: 3px solid #96dcf0;
+    color: #DDDDDD;
+    border: 3px solid #DDDDDD;
 }
 .topImg-crosstalk {
     background-image: url("../img/crosstalk/crosstalk_topback.jpg");
@@ -1092,7 +1092,7 @@ footer p {
     display: -ms-flexbox;
     display: flex;
     margin-top: 50px;
-    color: #062854;
+    color: #78c8a0;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
@@ -1148,13 +1148,13 @@ footer p {
     border-left-style: solid;
 }
 .contentBox-block .contentBox_thumbnail_block-right .bgLightBlue:after {
-    border-left-color: #d8effc!important;
+    border-left-color: #DDDDDD!important;
 }
 .contentBox-block .contentBox_thumbnail_block-right .bgLightYellow:after {
     border-left-color: #f7f2d0!important;
 }
 .contentBox-block .contentBox_thumbnail_block-right .bgLightPink:after {
-    border-left-color: #fbe1e5!important;
+    border-left-color: #d8effc!important;
 }
 .contentBox-block .contentBox_thumbnail_block-right .bgLightGreen:after {
     border-left-color: #d8f0e4!important;
@@ -1175,13 +1175,13 @@ footer p {
     border-right-style: solid;
 }
 .contentBox-block .contentBox_thumbnail_block-left .bgLightBlue:after {
-    border-right-color: #d8effc!important;
+    border-right-color: #DDDDDD!important;
 }
 .contentBox-block .contentBox_thumbnail_block-left .bgLightYellow:after {
     border-right-color: #f7f2d0!important;
 }
 .contentBox-block .contentBox_thumbnail_block-left .bgLightPink:after {
-    border-right-color: #fbe1e5!important;
+    border-right-color: #d8effc!important;
 }
 .contentBox-block .contentBox_thumbnail_block-left .bgLightGreen:after {
     border-right-color: #d8f0e4!important;
@@ -2175,16 +2175,16 @@ footer p {
     border-color: #fab4be transparent transparent;
 }
 .interview_content_ttl.interview_content_ttl-blue {
-    background-color: #96dcf0;
+    background-color: #DDDDDD;
 }
 .interview_content_ttl.interview_content_ttl-blue:after {
-    border-color: #96dcf0 transparent transparent;
+    border-color: #DDDDDD transparent transparent;
 }
 .interview_content_ttl.interview_content_ttl-green {
-    background-color: #78c8a0;
+    background-color: #d8effc;
 }
 .interview_content_ttl.interview_content_ttl-green:after {
-    border-color: #78c8a0 transparent transparent;
+    border-color: #d8effc transparent transparent;
 }
 .interview_content_ttl.interview_content_ttl-orange {
     background-color: #fbb797;
@@ -2303,13 +2303,13 @@ footer p {
     font-size: 16px;
 }
 .interview_content-sRight.interview_content-sRight-blue {
-    color: #96dcf0;
+    color: #DDDDDD;
 }
 .interview_content-sRight.interview_content-sRight-pink {
     color: #fab4be;
 }
 .interview_content-sRight.interview_content-sRight-green {
-    color: #78c8a0;
+    color: #d8effc;
 }
 .interview_content-sRight.interview_content-sRight-orange {
     color: #fbb797;
