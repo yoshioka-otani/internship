@@ -243,10 +243,6 @@ header div.gnavi a span {
 #talk .subtitle {
 	background-image: url(/index/images/title/talk.png);
 }
-/*-------------------voice----------------------*/
-#voice .subtitle {
-	background-image: url(/index/images/title/voice.png);
-}
 /*-----------------overview--------------------*/
 #overview {
 	margin: 0 auto;
@@ -311,19 +307,134 @@ header div.gnavi a span {
 
 /*---------------------yoshida------------------------------------------------*/
 
-.box1, .box2, .box3, .box4{
-  float: left;
-  width: 25%;
-  text-align: center;
-  line-height: 100px;
-  font-weight: bold;
-  font-size: 20px;
+/*-------------------voice----------------------*/
+#voice .subtitle {
+	background-image: url(/index/images/title/voice.png);
 }
-.box1, .box2, .box3{
-  border-right: solid 2px blue;
+#voice {
+	width: 100%;
+}
+#voice .wrap_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.box0 {
-  border: solid 2px blue;
-  display: flex;
+#voice .box {
+    /* float: left; */
+    height: 150px;
+    width: 170px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    border: solid 3px #00FF66;
+    position: relative;
+    margin: 0 3% 12px 3%;
+}
+
+
+
+#voice .box .rod {
+	color: #00FF66;
+}
+
+#voice .rod:hover{
+	color: white;
+}
+
+#voice .box:hover {
+	background-color: #00FF66 !important;
+	color: white !important;
+}
+
+	
+
+
+#voice .mbox {
+  float: left;
+  height:230px;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+  border: solid 2px transparent;
+  position:relative;
+}
+
+
+
+#voice .hasegawa-article{
+	display: none;
+}
+
+#voice .ishiduka-article{
+	display: none;
+}
+
+#voice .hanashita-article{
+	display: none;
+}
+#voice .mbox {
+  margin : 5px ;
+  padding : 25px 90px 25px 90px;
+  border: solid 1px transparent;
+  background-color :#33cc66;
+} 
+#voice .mbox p {
+	line-height: 135%;
+	font-family:"ＭＳ Ｐゴシック",sans-serif;
+	font-size: 15px;
+}
+
+#voice .box p {
+	line-height: normal;
+}
+#voice .m-top {
+	position: absolute;
+    width: 100%;
+}
+
+#voice .ishiduka:after {
+  display: none;
+  border-bottom: 20px solid #33cc66;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  content: '';
+  margin-left: -10px;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+}
+#voice .ishiduka-article{
+  padding: 30px;
+  position: relative;
+}
+
+#voice .hanashita-article{
+  padding: 30px;
+  position: relative;
+}
+#voice .hanashita-article:after {
+  border-bottom: 20px solid #33cc66;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  content: '';
+  margin-left: -10px;
+  position: absolute;
+  top: -20px;
+  left: 70%;
+}
+
+@media screen and (min-width:401px) and (max-width:768px) {
+	/*iPhone6 ~ iPad*/
+	#voice .mbox p {
+		font-size:10px !important;
+	}
+}
+@media screen and (max-width: 400px) {
+	/*~ iPhone6*/
+	#voice .mbox p {
+		font-size: 5px !important;
+		
+	}
 }
