@@ -395,7 +395,7 @@ header div.gnavi a{
 }
 #voice .mbox {
   margin : 5px ;
-  padding : 25px 90px 25px 90px;
+  padding : 24px 90px 25px 90px;
   border: solid 1px transparent;
   background-color :#33cc66;
 } 
@@ -413,26 +413,46 @@ header div.gnavi a{
     width: 100%;
 }
 
-#voice .ishiduka:after {
+#voice .ishiduka .triangle {
+  display: none;
   border-bottom: 15px solid #33cc66;
   border-right: 15px solid transparent;
   border-left: 15px solid transparent;
-  content: '';
   margin-left: -10px;
   position: absolute;
-  top: 105%;
+  top: 150px;
+  left: 50%;
+}
+#voice .hasegawa .triangle {
+  display: none;
+  border-bottom: 15px solid #33cc66;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  margin-left: -10px;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+}
+#voice .hanashita .triangle {
+  display: none;
+  border-bottom: 15px solid #33cc66;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  margin-left: -10px;
+  position: absolute;
+  top: 150px;
   left: 50%;
 }
 @media screen and (min-width:401px) and (max-width:768px) {
 	/*iPhone6 ~ iPad*/
 	#voice .box p {
-		font-size:10px !important;
+		font-size:10px;
 	}
 }
 @media screen and (max-width: 400px) {
 	/*~ iPhone6*/
 	#voice .box p {
-		font-size: 7px !important;
+		font-size: 7px;
 		
 	}
 }
@@ -459,33 +479,33 @@ header div.gnavi a{
 @media screen and (max-width: 400px) {
 	/*~ iPhone6*/
 	#voice .mbox {
-		padding : 20px 50px 20px 50px !important;
+		padding : 20px 40px 20px 40px !important;
 		
 		
 	}
 }
 @media screen and (min-width:401px) and (max-width:768px) {
 	/*iPhone6 ~ iPad*/
-	#voice .box .m-voice {
+	.ishiduka p:nth-child(2), .hasegawa p:nth-child(2), .hanashita p:nth-child(2){
 		font-size:14px !important;
 	}
 }
 @media screen and (max-width: 400px) {
 	/*~ iPhone6*/
-	#voice .box .m-voice {
+	.ishiduka p:nth-child(2), .hasegawa p:nth-child(2), .hanashita p:nth-child(2){
 		font-size: 8px !important;
 		
 	}
 }
 @media screen and (min-width:401px) and (max-width:768px) {
 	/*iPhone6 ~ iPad*/
-	#voice .box .m-name {
+	.ishiduka ruby:nth-child(3), .hasegawa ruby:nth-child(3),.hanashita ruby:nth-child(3) {
 		font-size:14px !important;
 	}
 }
 @media screen and (max-width: 400px) {
 	/*~ iPhone6*/
-	#voice .box .m-name {
+	.ishiduka ruby:nth-child(3), .hasegawa ruby:nth-child(3), .hanashita ruby:nth-child(3) {
 		font-size: 8px !important;
 		
 	}
