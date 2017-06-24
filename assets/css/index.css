@@ -15,7 +15,9 @@ header a.sleep:hover{
 	opacity:1;
 	}
 body {
+	width: auto;
 	height:100%;
+	min-width: 1056px;
 	font-size:14px;
 	line-height:1;
 	}
@@ -160,6 +162,9 @@ header div.gnavi a{
 	}
 }
 @media screen and (max-width: 768px) {
+	body {
+	min-width: 320px;
+	}
 	#logo img {
 		left: 28px !important;
 	}
