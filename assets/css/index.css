@@ -526,7 +526,7 @@ header div.gnavi a:nth-of-type(8):hover{
 #voice .mbox p {
 	line-height: 135%;
 	font-family:"ＭＳ Ｐゴシック",sans-serif;
-	font-size: calc(20% + 0.8vw);
+	font-size: 15px;
 }
 
 #voice .box p {
@@ -571,12 +571,13 @@ header div.gnavi a:nth-of-type(8):hover{
 @media screen and (min-width:401px) and (max-width:768px) {
 	/*iPhone6 ~ iPad*/
 	#voice .mbox p {
-		font-size:10px;
+		font-size:10px !important;
 	}
 }
 @media screen and (max-width: 400px) {
 	/*~ iPhone6*/
 	#voice .mbox p {
+		font-size: 5px !important;
 		
 	}
 }
