@@ -376,13 +376,13 @@ header div.gnavi a{
     text-align: center;
     font-size: 12px;
     font-weight: 550;
-    border: solid 3px #00FF66;
+    border: solid 3px #33cc66;
     position: relative;
     margin: 0 3% 12px 3%;
 }
 
 #voice .ishiduka p:nth-child(2) {
-  color: #00FF66; 
+  color: #33cc66; 
   font-size: 18px;
   font-weight: 580;
 }
@@ -394,7 +394,7 @@ header div.gnavi a{
 
 
 #voice .box:hover {
-	background-color: #00FF66 !important;
+	background-color: #33cc66 !important;
 	color: white !important;
 }
 

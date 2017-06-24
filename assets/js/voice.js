@@ -1,5 +1,4 @@
-
- $(function(){
+$(function(){
     $(".ishiduka").on("click", function() {
         if($(".ishiduka-article").css('display') == 'none'){
             $(".ishiduka .triangle").css('display', 'block');
@@ -50,8 +49,8 @@ $(function() {
         $(".ishiduka p:eq(0)").css('color','#ffffff');
         $(".ishiduka p:eq(1)").css('color','#ffffff');
     },function(){
-        $(".ishiduka p:eq(0)").css('color','#00FF66');
-        $(".ishiduka p:eq(1)").css('color','#00FF66');
+        $(".ishiduka p:eq(0)").css('color','#33cc66');
+        $(".ishiduka p:eq(1)").css('color','#33cc66');
     });
 });
 
