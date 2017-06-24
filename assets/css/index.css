@@ -99,6 +99,7 @@ header div.gnavi a{
 .bar_menu {
 	display: none;
 }
+
 @media (min-height: 801px){
 	#keyvisual div.people{
 		position:absolute;
@@ -276,7 +277,74 @@ header div.gnavi a{
 #work .subtitle {
 	background-image: url(../../index/images/title/work.png);
 }
+#work {
+	width: 100%;
+}
+#work .business {
+	display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#work .business img {
+	width: 300px;
+	min-width: 100px;
+	margin: 0 3%;
+}
+#work .business img:nth-of-type(1):hover {
+	opacity: 0.6;
+}
+#work .business img:nth-of-type(2):hover {
+	opacity: 0.6;
+}
+#work .business img:nth-of-type(3):hover {
+	opacity: 0.6;
+}
+#work .ac {
+	display: none;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+#work .ac p {
+	font-size: calc(112.5% + 4 * (100vw - 1000px) / 400);
+	text-align: center;
+}
+#work .ac .images {
+	display: flex;
+	width: 100%;
+	margin-top: 2%;
+}
+#work .ac-branding {
+	
+}
+#work .ac-branding .images {
+		background-color: rgba(242, 205, 129, 0.1);
+}
+#work .ac-branding p {
+	color: #efb133;
+}
+#work .ac-inbound {
+	
+}
+#work .ac-inbound .images {
+		background-color: rgba(0, 101, 178, 0.1);
+}
+#work .ac-inbound p {
+	color: #0065b2;
+}
+#work .ac-innovation {
+	
+}
+#work .ac-innovation .images {
+		background-color: rgba(43, 164, 100, 0.1);
+}
+#work .ac-innovation p {
+	color: #2ba464;
+}
 /*-------------------talk----------------------*/
+#talk {
+	margin-top: 3%;
+}
 #talk .subtitle {
 	background-image: url(../../index/images/title/talk.png);
 }
