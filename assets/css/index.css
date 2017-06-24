@@ -168,6 +168,22 @@ header div.gnavi a{
 	#logo img {
 		left: 28px !important;
 	}
+	#keyvisual div.phrase{
+		position:absolute;
+		left:0;
+		top:120px;
+		width:100%;
+		overflow: hidden;
+		text-align:center;
+	}
+	#keyvisual div.phrase h2{
+		margin:0 !important;
+		font-size: 8vw !important;
+		}
+	#keyvisual div.phrase h4{
+		margin:24px 0 24px 0 !important;
+		font-size: 4.5vw !important;
+	}
 	.over800 {
 		display: none;
 	}
