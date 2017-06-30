@@ -71,7 +71,7 @@ $(function() {
     });
 });
 
-$(window).on('click load resize', function(){
+$(window).on('click ready resize', function(){
       var m_height1 = $('.ishiduka-article > p:eq(0)', '#voice').height() + $('.ishiduka-article > p:eq(1)', '#voice').height() + $('.ishiduka-article > p:eq(2)', '#voice').height() + $('.ishiduka-article > p:eq(3)', '#voice').height();
       $('.ishiduka-article', '#voice').css('height', m_height1 + 70 +'px' );
       var m_height2 = $('.hasegawa-article > p:eq(0)', '#voice').height() + $('.hasegawa-article > p:eq(1)', '#voice').height() + $('.hasegawa-article > p:eq(2)', '#voice').height() + $('.hasegawa-article > p:eq(3)', '#voice').height();
@@ -93,4 +93,7 @@ $(window).on('click load resize', function(){
       $('.hasegawa .triangle').css('top', b_height1  + 'px');
       $('.hanashita .triangle').css('top', b_height1  + 'px');
 });
-
+// $(document).ready(function() {
+//     console.log("aaaa");
+//     $(".ishiduka").addClass("box-load");
+// });
