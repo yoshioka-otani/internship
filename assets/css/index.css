@@ -454,6 +454,7 @@ header div.gnavi a{
 /*-------------------voice----------------------*/
 #voice .subtitle {
 	background-image: url(../../index/images/title/voice.svg);
+	margin-bottom: 25px;
 }
 #voice {
 	width: 100%;
