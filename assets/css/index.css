@@ -99,7 +99,6 @@ header div.gnavi a{
 .bar_menu {
 	display: none;
 }
-
 @media (min-height: 801px){
 	#keyvisual div.people{
 		position:absolute;

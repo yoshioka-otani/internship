@@ -35,11 +35,25 @@ $(function(){
         }
     });
  });
+
+
+$(function(){
+    $(".people").scroll(function() {
+        if ($(".people").scrollLeft() >= 1296 - $(window).width()){
+            $(".people").scrollLeft(1);
+        }else if ($(".people").scrollLeft() == 0) {
+            $(".people").scrollLeft(1296 - $(window).width() - 1);
+        }
+    });
+});
+
 // $(function(){
-//     $(".people").scroll(function() {
-//         if ($(".people").scrollLeft() >= ($("body").width() - $(".people").width())) {
-//             $(".people").scrollLeft(1);
-//         }else if ($(".people").scrollLeft() == 0) {
-//             $(".people").scrollLeft($("body").width() - $(".people").width() - 1);
-//         }});
+//     $("body").height($(window).height() + 2000 );
+//     $(window).scroll(function() {
+//         if ($(window).scrollTop() >= ($("body").height() - $(window).height())){
+//             $(window).scrollTop(1);
+//         }else if ($(window).scrollTop() == 0) {
+//             $(window).scrollTop($("body").height() - $(window).height() - 1);
+//         }
+//     });
 // });
