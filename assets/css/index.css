@@ -323,9 +323,12 @@ header div.gnavi a{
 	text-align: center;
 }
 #work .ac .images {
-	display: flex;
 	width: 100%;
 	margin-top: 2%;
+	overflow: auto;
+}
+#work .ac .images img {
+	width: 24%;
 }
 #work .ac-branding {
 	
@@ -356,17 +359,14 @@ header div.gnavi a{
 }
 
 @media screen and (min-width:401px) and (max-width:768px) {
-	/*iPhone6 ~ iPad*/
-	.ishiduka ruby:nth-child(3), .hasegawa ruby:nth-child(3),.hanashita ruby:nth-child(3) {
-		font-size:14px !important;
-	}
+	#work .ac .images img {
+	width: 48%;
+}
 }
 @media screen and (max-width: 400px) {
-	/*~ iPhone6*/
-	.ishiduka ruby:nth-child(3), .hasegawa ruby:nth-child(3), .hanashita ruby:nth-child(3) {
-		font-size: 14px !important;
-		
-	}
+	#work .ac .images img {
+	width: 100%;
+}
 }
 /*-------------------talk----------------------*/
 #talk {
