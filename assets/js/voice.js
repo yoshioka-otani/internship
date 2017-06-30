@@ -10,6 +10,7 @@ $(function(){
         }else{
             $(".ishiduka-article").css('display', 'none');
             $(".ishiduka .triangle").css('display', 'none');
+            displayhelp("ishiduka");
         }
     });
  });
@@ -25,6 +26,7 @@ $(function(){
         }else{
             $(".hasegawa .triangle").css('display', 'none');
             $(".hasegawa-article").css('display', 'none');
+            displayhelp("hasegawa");
         }
     });
  });
@@ -40,29 +42,10 @@ $(function(){
         }else{
             $(".hanashita .triangle").css('display', 'none');
             $(".hanashita-article").css('display', 'none');
+            displayhelp("hanashita");
         }
     });
  });
-// $(function() {
-//     $("div .ishiduka").hover(function () {
-//         $(".ishiduka p:eq(0)").css('color','#ffffff');
-//         $(".ishiduka ruby:eq(0)").css('color','#ffffff');
-//         $(".ishiduka p:eq(1)").css('color','#ffffff');
-//         $(".ishiduka p:eq(2)").css('color','#ffffff');
-//         $(".ishiduka p:eq(3)").css('color','#ffffff');
-//         $(".ishiduka p:eq(4)").css('color','#ffffff');   
-//         $(".ishiduka").css('background-color','#33cc66');
-//     },function(){
-//         $(".ishiduka p:eq(0)").css('color','#33cc66');
-//         $(".ishiduka ruby:eq(0)").css('color','#33cc66');
-//         $(".ishiduka p:eq(1)").css('color','#33cc66');
-//         $(".ishiduka p:eq(2)").css('color','#33cc66');
-//         $(".ishiduka p:eq(3)").css('color','#33cc66');
-//         $(".ishiduka p:eq(4)").css('color','#33cc66');
-//         $(".ishiduka").css('background-color','#ffffff');
-//     });
-// });
-
 
 $(window).on('click ready resize', function(){
       var m_height1 = $('.ishiduka-article > p:eq(0)', '#voice').height() + $('.ishiduka-article > p:eq(1)', '#voice').height() + $('.ishiduka-article > p:eq(2)', '#voice').height() + $('.ishiduka-article > p:eq(3)', '#voice').height();
@@ -88,9 +71,6 @@ $(window).on('click ready resize', function(){
           $('#overview').css('margin-top', m_height3 + 110 + 'px');
       }else{
           $('#overview').css('margin-top', 25 + 'px');
-            displayhelp2("hasegawa");
-            displayhelp2("hanashita");
-            displayhelp2("ishiduka");
             // if (jQuery(":hover")[5].outerHTML.match(/ishiduka/)) {
             //     displayhelp("ishiduka");
             // }
@@ -112,36 +92,30 @@ $(window).on('click ready resize', function(){
 $(window).on('ready', function(){
     displayhelp("ishiduka");
 });
+
 $(function() {
-    $("div .box").hover(function () {
-        gname("ishiduka");
-        gname("hasegawa");
-        gname("hanashita");
+    $("div .ishiduka").hover(
+    function () {
+        gname_on("ishiduka");
+    },
+    function(){
+        gname_off("ishiduka");
+    });
+    $("div .hasegawa").hover(
+    function () {
+        gname_on("hasegawa");
+    },
+    function(){
+        gname_off("hasegawa");
+    });
+    $("div .hanashita").hover(
+    function () {
+        gname_on("hanashita");
+    },
+    function(){
+        gname_off("hanashita");
     });
 });
-
-
-function gname (gra) {
-    if($("." + gra + "-article").css('display') == 'none') {
-        $("div." + gra).hover(function () {
-            $("." + gra + " p:eq(0)").css('color','#ffffff');
-            $("." + gra + " p:eq(1)").css('color','#ffffff');
-            $("." + gra + " ruby:eq(0)").css('color','#ffffff');
-            $("." + gra + " p:eq(2)").css('color','#ffffff');
-            $("." + gra + " p:eq(3)").css('color','#ffffff');
-            $("." + gra + " p:eq(4)").css('color','#ffffff');   
-            },function(){
-            $("." + gra + " p:eq(0)").css('color','#33cc66');
-            $("." + gra + " p:eq(1)").css('color','#33cc66');
-            $("." + gra + " ruby:eq(0)").css('color','black');
-            $("." + gra + " p:eq(2)").css('color','black');
-            $("." + gra + " p:eq(3)").css('color','black');
-            $("." + gra + " p:eq(4)").css('color','black'); 
-        });
-    }
-}
-
-
 function displayhelp (help) {
     $("." + help +  " p:eq(0)").css('color','#ffffff');
     $("." + help + " ruby:eq(0)").css('color','#ffffff');
@@ -159,4 +133,24 @@ function displayhelp2 (help) {
     $("." + help + " p:eq(3)").css('color','black');
     $("." + help + " p:eq(4)").css('color','black');   
     $("." + help).css('background-color','#f8f8f8');   
+}
+function gname_on (gra) {
+    $("." + gra + " p:eq(0)").css('color','#ffffff');
+    $("." + gra + " p:eq(1)").css('color','#ffffff');
+    $("." + gra + " ruby:eq(0)").css('color','#ffffff');
+    $("." + gra + " p:eq(2)").css('color','#ffffff');
+    $("." + gra + " p:eq(3)").css('color','#ffffff');
+    $("." + gra + " p:eq(4)").css('color','#ffffff'); 
+    $("." + gra).css('background-color','#33cc66');
+}
+function gname_off (gra){
+    if($("." + gra + "-article").css('display') == 'none') {
+        $("." + gra + " p:eq(0)").css('color','#33cc66');
+        $("." + gra + " p:eq(1)").css('color','#33cc66');
+        $("." + gra + " ruby:eq(0)").css('color','black');
+        $("." + gra + " p:eq(2)").css('color','black');
+        $("." + gra + " p:eq(3)").css('color','black');
+        $("." + gra + " p:eq(4)").css('color','black'); 
+        $("." + gra).css('background-color','#f8f8f8'); 
+    }
 }
