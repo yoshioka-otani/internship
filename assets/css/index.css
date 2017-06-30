@@ -341,6 +341,20 @@ header div.gnavi a{
 #work .ac-innovation p {
 	color: #2ba464;
 }
+
+@media screen and (min-width:401px) and (max-width:768px) {
+	/*iPhone6 ~ iPad*/
+	.ishiduka ruby:nth-child(3), .hasegawa ruby:nth-child(3),.hanashita ruby:nth-child(3) {
+		font-size:14px !important;
+	}
+}
+@media screen and (max-width: 400px) {
+	/*~ iPhone6*/
+	.ishiduka ruby:nth-child(3), .hasegawa ruby:nth-child(3), .hanashita ruby:nth-child(3) {
+		font-size: 14px !important;
+		
+	}
+}
 /*-------------------talk----------------------*/
 #talk {
 	margin-top: 3%;

@@ -43,6 +43,25 @@ $(function(){
         }
     });
  });
+// $(function() {
+//     $("div .ishiduka").hover(function () {
+//         $(".ishiduka p:eq(0)").css('color','#ffffff');
+//         $(".ishiduka ruby:eq(0)").css('color','#ffffff');
+//         $(".ishiduka p:eq(1)").css('color','#ffffff');
+//         $(".ishiduka p:eq(2)").css('color','#ffffff');
+//         $(".ishiduka p:eq(3)").css('color','#ffffff');
+//         $(".ishiduka p:eq(4)").css('color','#ffffff');   
+//         $(".ishiduka").css('background-color','#33cc66');
+//     },function(){
+//         $(".ishiduka p:eq(0)").css('color','#33cc66');
+//         $(".ishiduka ruby:eq(0)").css('color','#33cc66');
+//         $(".ishiduka p:eq(1)").css('color','#33cc66');
+//         $(".ishiduka p:eq(2)").css('color','#33cc66');
+//         $(".ishiduka p:eq(3)").css('color','#33cc66');
+//         $(".ishiduka p:eq(4)").css('color','#33cc66');
+//         $(".ishiduka").css('background-color','#ffffff');
+//     });
+// });
 $(function() {
     $("div .ishiduka").hover(function () {
         $(".ishiduka p:eq(0)").css('color','#ffffff');
@@ -93,7 +112,10 @@ $(window).on('click ready resize', function(){
       $('.hasegawa .triangle').css('top', b_height1  + 'px');
       $('.hanashita .triangle').css('top', b_height1  + 'px');
 });
+
 // $(document).ready(function() {
 //     console.log("aaaa");
 //     $(".ishiduka").addClass("box-load");
+//     $(".ishiduka p:eq(0)").css('color','#ffffff');
+//     $(".ishiduka p:eq(1)").css('color','#ffffff');
 // });
