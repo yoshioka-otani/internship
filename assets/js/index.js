@@ -172,7 +172,7 @@ $(function() {
     }
 });
 
-preload();
+// preload();
 
 function person_on(member) {
     if($(".people ." + member + " a:eq(0)").css("display") == "none"){
