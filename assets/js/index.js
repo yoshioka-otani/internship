@@ -117,3 +117,6 @@ function person_off(member) {
         $(".people ." + member + "2 a:eq(1)").css("background-image", "url(../../index/images/people/" + member + "1.png)");
     }
 }
+function preload() {
+    
+}
