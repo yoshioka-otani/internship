@@ -104,12 +104,16 @@ $(function() {
 function person_on(member) {
     if($(".people ." + member + " a:eq(0)").css("display") == "none"){
         $(".people ." + member + " a:eq(0)").css("display", "block");
-        $(".people ." + member + " a:eq(1)").css("background-image", "url(../../index/images/people/hiratsuka2.png)");
+        $(".people ." + member + "2 a:eq(0)").css("display", "block");
+        $(".people ." + member + " a:eq(1)").css("background-image", "url(../../index/images/people/" +member + "2.png)");
+        $(".people ." + member + "2 a:eq(1)").css("background-image", "url(../../index/images/people/" + member + "2.png)");
     }
 }
 function person_off(member) {
     if($(".people ." + member + " a:eq(0)").css("display") == "block"){
         $(".people ." + member + " a:eq(0)").css("display", "none");
-        $(".people ." + member + " a:eq(1)").css("background-image", "url(../../index/images/people/hiratsuka1.png)");
+        $(".people ." + member + "2 a:eq(0)").css("display", "none");
+        $(".people ." + member + " a:eq(1)").css("background-image", "url(../../index/images/people/" + member + "1.png)");
+        $(".people ." + member + "2 a:eq(1)").css("background-image", "url(../../index/images/people/" + member + "1.png)");
     }
 }

@@ -100,12 +100,14 @@ header div.gnavi a{
 	display: none;
 }
 .people .person a:nth-child(1) {
+	display: none;
 	width: 176px !important;
 	height: 50px !important;
 	background-repeat: no-repeat;
 	background-position: 50% 0%;
 }
 .people .person a:nth-child(2) {
+	display: block;
 	width: 176px !important;
 	height: 220px !important;
 	background-repeat: no-repeat;
@@ -117,17 +119,32 @@ header div.gnavi a{
 .people .hiratsuka a:nth-child(2) {
 	background-image: url(../../index/images/people/hiratsuka1.png);
 }
+.people .fujio a:nth-child(1) {
+	background-image: url(../../index/images/hukidashi/1.svg);
+}
 .people .fujio a:nth-child(2) {
 	background-image: url(../../index/images/people/fujio1.png);
 }
+.people .kurozumi a:nth-child(1) {
+	background-image: url(../../index/images/hukidashi/1.svg);
+}
 .people .kurozumi a:nth-child(2) {
-	background-image: url(../../index/images/people/kurozumi2.png);
+	background-image: url(../../index/images/people/kurozumi1.png);
+}
+.people .takeuchi a:nth-child(1) {
+	background-image: url(../../index/images/hukidashi/1.svg);
 }
 .people .takeuchi a:nth-child(2) {
 	background-image: url(../../index/images/people/takeuchi1.png);
 }
+.people .uchida a:nth-child(1) {
+	background-image: url(../../index/images/hukidashi/1.svg);
+}
 .people .uchida a:nth-child(2) {
-	background-image: url(../../index/images/people/uchida3.png);
+	background-image: url(../../index/images/people/uchida1.png);
+}
+.people .otaki a:nth-child(1) {
+	background-image: url(../../index/images/hukidashi/1.svg);
 }
 .people .otaki a:nth-child(2) {
 	background-image: url(../../index/images/people/otaki1.png);
@@ -151,7 +168,7 @@ header div.gnavi a{
 		height:32.5vh;
 	}
 	#keyvisual div.people div.p-box p a{
-		display:block;
+		/*display:block;*/
 		width:100%;
 		height:100%;
 	}
@@ -171,7 +188,7 @@ header div.gnavi a{
 		padding: 0 20px;
 	}
 	#keyvisual div.people div.p-box p a{
-		display:block;
+		/*display:block;*/
 		width:100%;
 		height:100%;
 	}
