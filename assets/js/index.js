@@ -61,7 +61,7 @@ $(function(){
     //     var p_width = $(".people").width();
     $(".people").scroll(function() {
         if ($(".people").scrollLeft() > p_width){
-            $(".people").scrollLeft(0);
+            $(".people").scrollLeft(1);
         }else if ($(".people").scrollLeft() == 0) {
             $(".people").scrollLeft(p_width);
         }
