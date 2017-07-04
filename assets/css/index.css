@@ -410,6 +410,45 @@ header div.gnavi a{
 #talk .subtitle {
 	background-image: url(../../index/images/title/talk.svg);
 }
+#talk p {
+	color:#33cc66;
+	font-size: 23px;
+}
+#talk .image {
+	width: 800px;
+	height: 415px;
+	opacity: 0.6;
+	margin: 0 auto 2% auto;
+	background-image: url(../../index/images/talk/link/talk1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#talk .image p {
+	position: relative;
+	text-align: center;
+	top: 50% ;
+	font-size: 20px;
+}
+@media screen and (min-width:401px) and (max-width:768px) {
+	/*iPhone6 ~ iPad*/
+	#talk .image {
+	width: 384px;
+	height: 200px;
+	background-image: url(../../index/images/talk/link/talk2.png);
+	}
+}
+
+@media screen and (max-width: 400px) {
+	/*~ iPhone6*/
+	#talk .image {
+	width: 320px;
+	height: 170px;
+	background-image: url(../../index/images/talk/link/talk3.png);
+	}
+}
+
+#talk
+
 /*-----------------overview--------------------*/
 #overview {
 	margin: 0 auto;
