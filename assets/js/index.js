@@ -60,9 +60,9 @@ $(function(){
     // if($(".people").width() >= 769)
     //     var p_width = $(".people").width();
     $(".people").scroll(function() {
-        if ($(".people").scrollLeft() >= p_width){
-            $(".people").scrollLeft(1);
-        }else if ($(".people").scrollLeft() <= 0) {
+        if ($(".people").scrollLeft() > p_width){
+            $(".people").scrollLeft(0);
+        }else if ($(".people").scrollLeft() == 0) {
             $(".people").scrollLeft(p_width);
         }
     });
