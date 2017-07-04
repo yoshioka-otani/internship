@@ -92,6 +92,7 @@ $(function() {
 });});
 $(function() {
     $("div .people .uchida").hover(function () {
+        console.log();
         person_on("uchida");},function(){
         person_off("uchida");
 });});
