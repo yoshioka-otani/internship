@@ -70,37 +70,78 @@ $(function(){
 
 /*---------------------------------------------------------------*/
 
+// $(function() {
+//     $("div .people .hiratsuka").hover(function () {
+//         person_on("hiratsuka");},function(){
+//         person_off("hiratsuka");
+// });});
+// $(function() {
+//     $("div .people .fujio").hover(function () {
+//         person_on("fujio");},function(){
+//         person_off("fujio");
+// });});
+// $(function() {
+//     $("div .people .kurozumi").hover(function () {
+//         person_on("kurozumi");},function(){
+//         person_off("kurozumi");
+// });});
+// $(function() {
+//     $("div .people .takeuchi").hover(function () {
+//         person_on("takeuchi");},function(){
+//         person_off("takeuchi");
+// });});
+// $(function() {
+//     $("div .people .uchida").hover(function () {
+//         person_on("uchida");},function(){
+//         person_off("uchida");
+// });});
+// $(function() {
+//     $("div .people .otaki").hover(function () {
+//         person_on("otaki");},function(){
+//         person_off("otaki");
+// });});
 $(function() {
+    if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+        $(function(){
+    	var start = "touchstart";var end   = "touchend";
+        $("div .people .hiratsuka").bind(start,function(){
+            console.log("aaa");
+            person_on("hiratsuka");
+    	});
+        $("div .people .hiratsuka").bind(end,function(){
+            console.log("aaa");
+            person_off("hiratsuka");
+    	});
+    });
+    }else{
     $("div .people .hiratsuka").hover(function () {
         person_on("hiratsuka");},function(){
         person_off("hiratsuka");
-});});
-$(function() {
+    });
     $("div .people .fujio").hover(function () {
         person_on("fujio");},function(){
         person_off("fujio");
-});});
-$(function() {
+    });
     $("div .people .kurozumi").hover(function () {
         person_on("kurozumi");},function(){
         person_off("kurozumi");
-});});
-$(function() {
+    });
     $("div .people .takeuchi").hover(function () {
         person_on("takeuchi");},function(){
         person_off("takeuchi");
-});});
-$(function() {
+    });
     $("div .people .uchida").hover(function () {
-        console.log();
         person_on("uchida");},function(){
         person_off("uchida");
-});});
-$(function() {
+    });
     $("div .people .otaki").hover(function () {
         person_on("otaki");},function(){
         person_off("otaki");
-});});
+    });
+    }
+});
+
+preload();
 
 function person_on(member) {
     if($(".people ." + member + " a:eq(0)").css("display") == "none"){
@@ -118,8 +159,6 @@ function person_off(member) {
         $(".people ." + member + "2 a:eq(1)").css("background-image", "url(../../index/images/people/" + member + "1.png)");
     }
 }
-
-preload();
 function preload() {
     $('<img src="../../index/images/people/hiratsuka2.png">');
     $('<img src="../../index/images/people/fujio2.png">');
