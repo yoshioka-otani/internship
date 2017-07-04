@@ -99,6 +99,40 @@ header div.gnavi a{
 .bar_menu {
 	display: none;
 }
+.people .person a:nth-child(1) {
+	width: 176px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+}
+.people .person a:nth-child(2) {
+	width: 176px !important;
+	height: 220px !important;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+}
+.people .hiratsuka a:nth-child(1) {
+	background-image: url(../../index/images/hukidashi/1.svg);
+}
+.people .hiratsuka a:nth-child(2) {
+	background-image: url(../../index/images/people/hiratsuka1.png);
+}
+.people .fujio a:nth-child(2) {
+	background-image: url(../../index/images/people/fujio1.png);
+}
+.people .kurozumi a:nth-child(2) {
+	background-image: url(../../index/images/people/kurozumi2.png);
+}
+.people .takeuchi a:nth-child(2) {
+	background-image: url(../../index/images/people/takeuchi1.png);
+}
+.people .uchida a:nth-child(2) {
+	background-image: url(../../index/images/people/uchida3.png);
+}
+.people .otaki a:nth-child(2) {
+	background-image: url(../../index/images/people/otaki1.png);
+}
+
 @media (min-height: 801px){
 	#keyvisual div.people{
 		position:absolute;
