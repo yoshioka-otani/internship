@@ -190,11 +190,11 @@ function person_off(member) {
         $(".people ." + member + "2 a:eq(1)").css("background-image", "url(../../index/images/people/" + member + "1.png)");
     }
 }
-function preload() {
-    $('<img src="../../index/images/people/hiratsuka2.png">');
-    $('<img src="../../index/images/people/fujio2.png">');
-    $('<img src="../../index/images/people/kurozumi2.png">');
-    $('<img src="../../index/images/people/takeuchi2.png">');
-    $('<img src="../../index/images/people/uchida2.png">');
-    $('<img src="../../index/images/people/otaki2.png">');
-}
+// function preload() {
+//     $('<img src="../../index/images/people/hiratsuka2.png">');
+//     $('<img src="../../index/images/people/fujio2.png">');
+//     $('<img src="../../index/images/people/kurozumi2.png">');
+//     $('<img src="../../index/images/people/takeuchi2.png">');
+//     $('<img src="../../index/images/people/uchida2.png">');
+//     $('<img src="../../index/images/people/otaki2.png">');
+// }
