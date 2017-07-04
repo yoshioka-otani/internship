@@ -17,7 +17,6 @@ header a.sleep:hover{
 body {
 	width: auto;
 	height:100%;
-	min-width: 1056px;
 	font-size:14px;
 	line-height:1;
 	}
@@ -99,14 +98,17 @@ header div.gnavi a{
 .bar_menu {
 	display: none;
 }
+#keyvisual div.people{
+		/*min-width: 2596px;*/
+	}
 .people .person a:nth-child(1) {
-	width: 176px;
-	height: 50px;
+	min-width: 176px !important;
+	height: 50px !important;
 	background-repeat: no-repeat;
 	background-position: 50% 0%;
 }
 .people .person a:nth-child(2) {
-	width: 176px !important;
+	min-width: 176px !important;
 	height: 220px !important;
 	background-repeat: no-repeat;
 	background-position: 50% 0%;
@@ -197,7 +199,7 @@ header div.gnavi a{
 }
 @media screen and (max-width: 768px) {
 	body {
-	min-width: 320px;
+	min-width: 340px;
 	}
 	#logo img {
 		left: 28px !important;
