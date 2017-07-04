@@ -103,16 +103,47 @@ $(function(){
 $(function() {
     if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
         $(function(){
-    	var start = "touchstart";var end   = "touchend";
-        $("div .people .hiratsuka").bind(start,function(){
-            console.log("aaa");
-            person_on("hiratsuka");
-    	});
-        $("div .people .hiratsuka").bind(end,function(){
-            console.log("aaa");
-            person_off("hiratsuka");
-    	});
-    });
+        	var count =0;
+            $("div .people .hiratsuka").bind("click",function(){
+                if(count == 0) {
+                    person_on("hiratsuka");count++;}else {
+                    person_off("hiratsuka");count = 0;}
+        });});
+        $(function(){
+        	var count =0;
+            $("div .people .fujio").bind("click",function(){
+                if(count == 0) {
+                    person_on("fujio");count++;}else {
+                    person_off("fujio");count = 0;}
+        });});
+        $(function(){
+        	var count =0;
+            $("div .people .kurozumi").bind("click",function(){
+                if(count == 0) {
+                    person_on("kurozumi");count++;}else {
+                    person_off("kurozumi");count = 0;}
+        });});
+        $(function(){
+        	var count =0;
+            $("div .people .takeuchi").bind("click",function(){
+                if(count == 0) {
+                    person_on("takeuchi");count++;}else {
+                    person_off("takeuchi");count = 0;}
+        });});
+        $(function(){
+        	var count =0;
+            $("div .people .uchida").bind("click",function(){
+                if(count == 0) {
+                    person_on("uchida");count++;}else {
+                    person_off("uchida");count = 0;}
+        });});
+        $(function(){
+        	var count =0;
+            $("div .people .otaki").bind("click",function(){
+                if(count == 0) {
+                    person_on("otaki");count++;}else {
+                    person_off("otaki");count = 0;}
+        });});
     }else{
     $("div .people .hiratsuka").hover(function () {
         person_on("hiratsuka");},function(){
