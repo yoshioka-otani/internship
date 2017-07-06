@@ -227,6 +227,9 @@ header div.gnavi a{
 		left: 28px !important;
 		zoom:0.6 !important;
 	}
+	#keyvisual{
+		height: 560px;
+	}
 	#keyvisual div.phrase{
 		position:absolute;
 		left:0;
@@ -297,6 +300,9 @@ header div.gnavi a{
 	.under800 {
 	    left: 100px !important;
 	}
+	#keyvisual{
+		height: 480px;
+	}
 	#keyvisual div.phrase h2{
 		margin:0 !important;
 		font-size: 10vw !important;
@@ -337,14 +343,14 @@ header div.gnavi a{
 }
 @media screen and (max-width: 768px) {
 	.subtitle {
-		width: 140px !important;
-		height: 120px !important;
+		width: 100px !important;
+		height: 80px !important;
 	}
 }
 @media screen and (max-width: 400px) {
 	.subtitle {
-		width: 100px !important;
-		height: 80px !important;
+		width: 80px !important;
+		height: 60px !important;
 	}
 }
 #contents {
