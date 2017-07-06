@@ -379,20 +379,31 @@ header div.gnavi a{
 	display: flex;
     justify-content: center;
     align-items: center; 
-    margin: 4% 0 6% 0;
+    margin: 0 0 2% 0;
+}
+#work > p {
+	font-size: 24px;
+	height: 60px;
+	color: #33cc66;
+	display: -webkit-flex;
+	 display: flex;
+	 -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+	 align-items: center; /* 縦方向中央揃え */
+	 -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+	 justify-content: center; /* 横方向中央揃え */
 }
 #work .business img {
 	width: 300px;
 	min-width: 100px;
 }
 #work .business img:nth-of-type(1){
-	margin: 1.5% 0 0 3%;
+	margin: 0 0 0 3%;
 }
 #work .business img:nth-of-type(2){
-	margin: 1.5% 3% 0 3%;
+	margin: 0 3% 0 3%;
 }
 #work .business img:nth-of-type(3){
-	margin: 1.5% 3% 0 0;
+	margin: 0 3% 0 0;
 }
 #work .business img:nth-of-type(1):hover {
 	opacity: 0.6;
@@ -451,13 +462,19 @@ header div.gnavi a{
 
 @media screen and (min-width:401px) and (max-width:768px) {
 	#work .ac .images img {
-	width: 48%;
-}
+		width: 48%;
+	}
+	#work > p {
+		font-size: 20px !important;
+	}
 }
 @media screen and (max-width: 400px) {
 	#work .ac .images img {
-	width: 100%;
-}
+		width: 100%;
+	}
+	#work > p {
+		font-size: 16px !important;
+	}
 }
 /*-------------------talk----------------------*/
 #talk {
@@ -471,7 +488,7 @@ header div.gnavi a{
 }
 #talk p {
 	color:#33cc66;
-	font-size: 25px;
+	font-size: 24px;
 	text-align: center;
 	margin: 3% ;
 }
@@ -484,6 +501,9 @@ header div.gnavi a{
 }
 #talk  a {
 	text-decoration:none;
+	width: 100%;
+    height: 100%;
+    display: block;
 }
 #talk .image {
 	width: 575px;
@@ -509,7 +529,7 @@ header div.gnavi a{
 @media screen and (max-width: 400px) {
 	/*~ iPhone6*/
 	#talk p {
-		font-size: 15px;
+		font-size: 16px;
 	}
 	#talk .image {
 	width: 320px;
