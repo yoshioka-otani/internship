@@ -45,7 +45,7 @@ $(window).on('ready resize', function(){
             $(".p-box p:eq(" + j + ")").css("display", "inline-block");
         }
         // $(".people").scrollLeft(648);
-        $(".people").scrollLeft(682);
+        $(".people").scrollLeft(684);
     }else {
         for(var k = 0; k <= 2; k++ ){
             $(".p-box p:eq(" + k + ")").css("display", "none");
@@ -54,7 +54,7 @@ $(window).on('ready resize', function(){
             $(".p-box p:eq(" + l + ")").css("display", "none");
         }
         // $(".people").scrollLeft(648);
-        $(".people").scrollLeft(682);
+        $(".people").scrollLeft(684);
     }
 });
 $(function(){
