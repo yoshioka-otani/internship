@@ -377,6 +377,7 @@ header div.gnavi a{
 	display: flex;
     justify-content: center;
     align-items: center; 
+    margin: 4% 0 6% 0;
 }
 #work .business img {
 	width: 300px;
