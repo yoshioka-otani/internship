@@ -175,14 +175,27 @@ $(function() {
 function person_on(member) {
     if($(".people ." + member + " a:eq(0)").css("display") == "none"){
         $(".people ." + member + " a:eq(0)").css("display", "block");
+        $(".people ." + member + " a:eq(0)").css("width", "216px");
+        $(".people ." + member + "2 a:eq(0)").css("width", "216px");
+        $(".people ." + member + " a:eq(0)").css("height", "60px");
+        $(".people ." + member + "2 a:eq(0)").css("height", "60px");
+        $(".people ." + member).css("padding", "0");
+        $(".people ." + member +"2").css("padding", "0");
         $(".people ." + member + "2 a:eq(0)").css("display", "block");
         $(".people ." + member + " a:eq(1)").css("background-image", "url(http://chibra.co.jp/internship/index/images/people/" +member + "2.png)");
         $(".people ." + member + "2 a:eq(1)").css("background-image", "url(http://chibra.co.jp/internship/index/images/people/" + member + "2.png)");
+        
     }
 }
 function person_off(member) {
     if($(".people ." + member + " a:eq(0)").css("display") == "block"){
         $(".people ." + member + " a:eq(0)").css("display", "none");
+        $(".people ." + member + " a:eq(0)").css("width", "176px");
+        $(".people ." + member + "2 a:eq(0)").css("width", "176px");
+        $(".people ." + member + " a:eq(0)").css("height", "50px");
+        $(".people ." + member + "2 a:eq(0)").css("height", "50px");
+        $(".people ." + member).css("padding", "0 20px");
+        $(".people ." + member +"2").css("padding", "0 20px");
         $(".people ." + member + "2 a:eq(0)").css("display", "none");
         $(".people ." + member + " a:eq(1)").css("background-image", "url(http://chibra.co.jp/internship/index/images/people/" + member + "1.png)");
         $(".people ." + member + "2 a:eq(1)").css("background-image", "url(http://chibra.co.jp/internship/index/images/people/" + member + "1.png)");
