@@ -446,14 +446,15 @@ header div.gnavi a{
 	position: relative;
 	text-align: center;
 	top: 50% ;
-	color: black;
+	color: white;
+	font-size: 32px !important;
 }
 #talk  a {
 	text-decoration:none;
 }
 #talk .image {
-	width: 800px;
-	height: 415px;
+	width: 575px;
+	height: 250px;
 	margin: 0 auto 3% auto;
 	background-image: url(../../index/images/talk/link/talk1.png);
 	background-repeat: no-repeat;
