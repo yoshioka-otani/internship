@@ -20,7 +20,11 @@ body {
 	min-width: 1056px;
 	font-size:14px;
 	line-height:1;
-	}
+	font-family: 'Noto Sans Japanese', sans-serif !important;
+}
+p {
+	font-family: 'Noto Sans Japanese', sans-serif !important;
+}	
 #wrap{
 	height:100%;
 	/*min-height:800px;*/
