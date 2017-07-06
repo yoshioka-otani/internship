@@ -44,7 +44,7 @@ header div.gnavi {
 }
 header div.inner{
 	position: fixed;
-	transform: translate3d(0, 0, 0);
+	/*transform: translate3d(0, 0, 0);*/
 	width: 100%;
 	height:70px;
 	background-color:#33cc66;
@@ -618,6 +618,9 @@ header div.gnavi a{
 	display: flex;
     justify-content: center;
     align-items: center; 
+}
+#more .images a {
+	flex: 1;
 }
 #more .images img {
 	flex: 1;
