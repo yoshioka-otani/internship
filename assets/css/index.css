@@ -185,7 +185,7 @@ header div.gnavi a{
 	#keyvisual div.people{
 		position:absolute;
 		left:0;
-		bottom:80px;
+		bottom:40px;
 		width:100%;
 	}
 	#keyvisual div.people div.p-box{
@@ -250,7 +250,7 @@ header div.gnavi a{
 		font-size: 4.5vw !important;
 	}
 	#keyvisual div.people{
-		bottom: 60px;
+		bottom: 30px;
 	}
 	.over800 {
 		display: none;
@@ -318,7 +318,7 @@ header div.gnavi a{
 		font-size: 5vw !important;
 	}
 	#keyvisual div.people{
-		bottom: 40px;
+		bottom: 20px;
 	}
 }
 #logo {
