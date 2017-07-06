@@ -178,23 +178,23 @@ function person_on(member) {
     if($(".people ." + member + " a:eq(0)").css("display") == "none"){
         $(".people ." + member + " a:eq(0)").css("display", "block");
         $(".people ." + member + "2 a:eq(0)").css("display", "block");
-        $(".people ." + member + " a:eq(1)").css("background-image", "url(../../index/images/people/" +member + "2.png)");
-        $(".people ." + member + "2 a:eq(1)").css("background-image", "url(../../index/images/people/" + member + "2.png)");
+        $(".people ." + member + " a:eq(1)").css("background-image", "url(http://chibra.co.jp/internship/index/images/people/" +member + "2.png)");
+        $(".people ." + member + "2 a:eq(1)").css("background-image", "url(http://chibra.co.jp/internship/index/images/people/" + member + "2.png)");
     }
 }
 function person_off(member) {
     if($(".people ." + member + " a:eq(0)").css("display") == "block"){
         $(".people ." + member + " a:eq(0)").css("display", "none");
         $(".people ." + member + "2 a:eq(0)").css("display", "none");
-        $(".people ." + member + " a:eq(1)").css("background-image", "url(../../index/images/people/" + member + "1.png)");
-        $(".people ." + member + "2 a:eq(1)").css("background-image", "url(../../index/images/people/" + member + "1.png)");
+        $(".people ." + member + " a:eq(1)").css("background-image", "url(http://chibra.co.jp/internship/index/images/people/" + member + "1.png)");
+        $(".people ." + member + "2 a:eq(1)").css("background-image", "url(http://chibra.co.jp/internship/index/images/people/" + member + "1.png)");
     }
 }
 function preload() {
-    $('<img src="../../index/images/people/hiratsuka2.png">');
-    $('<img src="../../index/images/people/fujio2.png">');
-    $('<img src="../../index/images/people/kurozumi2.png">');
-    $('<img src="../../index/images/people/takeuchi2.png">');
-    $('<img src="../../index/images/people/uchida2.png">');
-    $('<img src="../../index/images/people/otaki2.png">');
+    $('<img src="http://chibra.co.jp/internship/index/images/people/hiratsuka2.png">');
+    $('<img src="http://chibra.co.jp/internship/index/images/people/fujio2.png">');
+    $('<img src="http://chibra.co.jp/internship/index/images/people/kurozumi2.png">');
+    $('<img src="http://chibra.co.jp/internship/index/images/people/takeuchi2.png">');
+    $('<img src="http://chibra.co.jp/internship/index/images/people/uchida2.png">');
+    $('<img src="http://chibra.co.jp/internship/index/images/people/otaki2.png">');
 }
