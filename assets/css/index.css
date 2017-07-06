@@ -574,6 +574,33 @@ header div.gnavi a{
     text-align: center;
     margin-top: 6px;
 }
+@media screen and (max-width:768px) {
+	#entry .button {
+		width: 196px;
+		height: 56px;
+	}
+	#entry .button a {
+		width: 196px;
+		height: 56px;
+	}
+	#entry p {
+    	font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#entry .button {
+		width: 130px;
+		height: 37px;
+	}
+	#entry .button a {
+		width: 130px;
+		height: 37px;
+	}
+	#entry p {
+    	font-size: 12px;
+	}
+}
 /*-------------------more----------------------*/
 #more {
 	width: 100%;
