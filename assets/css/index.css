@@ -624,7 +624,6 @@ header div.gnavi a{
 }
 #more .images img {
 	flex: 1;
-	min-width: 100px;
 	margin: 0 1%;
 }
 @media screen and (max-width:768px) {
