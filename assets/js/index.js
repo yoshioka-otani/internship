@@ -172,8 +172,6 @@ $(function() {
 //     }
 // });
 
-preload();
-
 function person_on(member) {
     if($(".people ." + member + " a:eq(0)").css("display") == "none"){
         $(".people ." + member + " a:eq(0)").css("display", "block");
@@ -190,6 +188,7 @@ function person_off(member) {
         $(".people ." + member + "2 a:eq(1)").css("background-image", "url(http://chibra.co.jp/internship/index/images/people/" + member + "1.png)");
     }
 }
+preload();
 function preload() {
     $('<img src="http://chibra.co.jp/internship/index/images/people/hiratsuka2.png">');
     $('<img src="http://chibra.co.jp/internship/index/images/people/fujio2.png">');
