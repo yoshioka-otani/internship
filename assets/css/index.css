@@ -20,10 +20,10 @@ body {
 	min-width: 1056px;
 	font-size:14px;
 	line-height:1;
-	font-family: 'Noto Sans Japanese', sans-serif !important;
+	font-family: 'Corporate Logo-Bold', sans-serif !important;
 }
 p {
-	font-family: 'Noto Sans Japanese', sans-serif !important;
+	font-family: 'Corporate Logo-Bold', sans-serif !important;
 }	
 #wrap{
 	height:100%;
@@ -73,7 +73,8 @@ header div.gnavi a{
 #keyvisual{
 	/*min-width:1096px;*/
 	width: 100%;
-	height:100%;
+	/*height:100%;*/
+	height:640px;
 	}
 #keyvisual div.inner{
 	position:relative;
@@ -179,7 +180,9 @@ header div.gnavi a{
 }
 @media (max-height: 800px){
 	#keyvisual div.people{
-		position:absolute;left:0;bottom:100px;
+		position:absolute;
+		left:0;
+		bottom:80px;
 		width:100%;
 	}
 	#keyvisual div.people div.p-box{
@@ -218,7 +221,7 @@ header div.gnavi a{
 }
 @media screen and (max-width: 768px) {
 	body {
-	min-width: 320px;
+	min-width: 340px;
 	}
 	#logo img {
 		left: 28px !important;
@@ -279,7 +282,7 @@ header div.gnavi a{
 	}
 	.bar_menu ul {
 		list-style: none;
-		background-color: #fa8c6e;
+		background-color: #33cc66;
 		line-height: 1.8;
 	}
 	.bar_menu li {
@@ -293,6 +296,14 @@ header div.gnavi a{
 	}
 	.under800 {
 	    left: 100px !important;
+	}
+	#keyvisual div.phrase h2{
+		margin:0 !important;
+		font-size: 10vw !important;
+		}
+	#keyvisual div.phrase h4{
+		margin:24px 0 24px 0 !important;
+		font-size: 5vw !important;
 	}
 }
 #logo {
@@ -318,8 +329,8 @@ header div.gnavi a{
 	width: 100%;
 }
 .subtitle {
-	width: 200px;
-	height: 150px;
+	width: 150px;
+	height: 100px;
 	margin: 0 auto;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -489,8 +500,6 @@ header div.gnavi a{
 	}
 }
 
-#talk
-
 /*-----------------overview--------------------*/
 #overview {
 	margin: 0 auto;
@@ -499,12 +508,17 @@ header div.gnavi a{
 	background-image: url(../../index/images/title/about.svg);
 }
 .wrap_table {
-  width: 90%;
+  width: 50%;
   /*height: 100%;*/
   margin: 2% auto 60px;
   border: 1px solid #dedede;
   border-bottom: none;
   display: table;
+}
+@media screen and (max-width: 768px) {
+	.wrap_table {
+  		width: 70%;
+	}
 }
 .wrap_table dl {
   background: #f2f2f2;
@@ -531,16 +545,27 @@ header div.gnavi a{
 /*-------------------entry----------------------*/
 #entry .button {
 	background-image: url(../../index/images/other/entry.svg);
-	width: 100%;
+	width: 260px;
 	height: 74px;
 	background-repeat: no-repeat;
 	background-position: center;
-	margin: 5% 0;
+	margin-top: 4%;
 }
-
+#entry .button a {
+	width: 260px;
+	height: 74px;
+	display: block;
+}
+#entry p {
+	color: #33cc66;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 6px;
+}
 /*-------------------more----------------------*/
 #more {
 	width: 100%;
+	margin-top: 6%;
 }
 #more .subtitle {
 	background-image: url(../../index/images/title/more.svg);
@@ -553,6 +578,7 @@ header div.gnavi a{
 #more .images img {
 	flex: 1;
 	min-width: 100px;
+	margin: 0 1%;
 }
 /*-------------------footer----------------------*/
 #footer {
@@ -562,6 +588,7 @@ header div.gnavi a{
 	display: flex;
     justify-content: center;
     align-items: center; 
+    margin-top: 4%;
 }
 
 

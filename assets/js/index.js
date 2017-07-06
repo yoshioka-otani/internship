@@ -44,7 +44,7 @@ $(window).on('ready resize', function(){
         for(var j = 9; j <= 11; j++ ){
             $(".p-box p:eq(" + j + ")").css("display", "inline-block");
         }
-        $(".people").scrollLeft(1000); 
+        $(".people").scrollLeft(648); 
     }else {
         for(var k = 0; k <= 2; k++ ){
             $(".p-box p:eq(" + k + ")").css("display", "none");
@@ -52,7 +52,7 @@ $(window).on('ready resize', function(){
         for(var l = 9; l <= 11; l++ ){
             $(".p-box p:eq(" + l + ")").css("display", "none");
         }
-        $(".people").scrollLeft(340);   
+        $(".people").scrollLeft(648);   
     }
 });
 $(function(){

@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: 'Corporate Logo-Bold';
+    src: url('../font/logotypejp_mp_m_1.1.ttf') format('truetype');
+}
+
 /*-------------Noto Sans Japanese-------------*/
 
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
