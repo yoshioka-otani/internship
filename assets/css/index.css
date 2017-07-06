@@ -246,6 +246,9 @@ header div.gnavi a{
 		margin:24px 0 24px 0 !important;
 		font-size: 4.5vw !important;
 	}
+	#keyvisual div.people{
+		bottom: 60px;
+	}
 	.over800 {
 		display: none;
 	}
@@ -301,7 +304,7 @@ header div.gnavi a{
 	    left: 100px !important;
 	}
 	#keyvisual{
-		height: 480px;
+		height: 520px;
 	}
 	#keyvisual div.phrase h2{
 		margin:0 !important;
@@ -310,6 +313,9 @@ header div.gnavi a{
 	#keyvisual div.phrase h4{
 		margin:24px 0 24px 0 !important;
 		font-size: 5vw !important;
+	}
+	#keyvisual div.people{
+		bottom: 40px;
 	}
 }
 #logo {
