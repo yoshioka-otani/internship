@@ -159,7 +159,6 @@ header div.gnavi a{
 .people .otaki a:nth-child(2) {
 	background-image: url(../../index/images/people/otaki1.png);
 }
-
 @media (min-height: 801px){
 	#keyvisual div.people{
 		position:absolute;
@@ -340,6 +339,7 @@ header div.gnavi a{
 }
 #keyvisual div.people::-webkit-scrollbar {
     width: 0px;
+    height: 0px;
 }
 .border {
 	border-top:solid #33cc66;
