@@ -522,7 +522,7 @@ header div.gnavi a{
 .wrap_table {
   width: 50%;
   /*height: 100%;*/
-  margin: 2% auto 60px;
+  margin: 2% auto 4%;
   border: 1px solid #dedede;
   border-bottom: none;
   display: table;
