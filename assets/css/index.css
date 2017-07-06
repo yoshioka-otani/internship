@@ -383,6 +383,7 @@ header div.gnavi a{
 }
 #work > p {
 	font-size: 24px;
+	min-width: 340px;
 	height: 60px;
 	color: #33cc66;
 	display: -webkit-flex;
