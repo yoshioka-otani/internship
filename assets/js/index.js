@@ -71,11 +71,16 @@ $(function(){
 });
 
 $(function() {
-  $(".bar_menu").on("click", function() {
+  $('a[href^=#]').on("click", function() {
        $(".bar_menu").css("display", "none");
-    //   var c_height= $("#work").offset().top;
-    //   $(window).scrollTop(c_height + 70);
-    //   console.log(c_height);
+       var headerHight = 70;
+       var href= $(this).attr("href");
+       var target = $(href == "#" || href == "" ? 'html' : href);
+       console.log(target);
+       var position = target.offset().top-headerHight;
+       console.log(position);
+       $(window).scrollTop(position);
+	  return false;
   });
 });
 
@@ -223,32 +228,3 @@ function preload() {
 }
 
 // ----------------------------------------------------------------------------------
-
-var $preload = $('.preload');
-var imgSrcs = [];
- 
-$preload.each(function(){
-    imgSrcs.push($(this).attr('src'));
-});
- 
-var loader = new $.ImgLoader({
-    srcs : imgSrcs, //画像などのパスを配列に格納
-    pipesize: 2, //同時にロードできる数の上限
-    delay: 500,  //次のロードまでの遅延をミリ秒で指定
-    timeout: 500,  //タイムアウトまでの時間をミリ秒で指定
-    useXHR2: false //XMLHttpRequestVersion2を利用するかどうか
-});
- 
-loader.on('progress', function(progress){
-    var prog = progress.loadedRatio; //進捗率を取得
-});
- 
-loader.on('itemload', function($img){
-    console.log($img);
-});
- 
-loader.on('allload', function($img){
-    console.log('complete');
-});
- 
-loader.load();  //ローディングを実行
