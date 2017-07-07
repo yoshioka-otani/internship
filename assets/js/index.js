@@ -70,6 +70,15 @@ $(function(){
     });
 });
 
+$(function() {
+  $(".bar_menu").on("click", function() {
+       $(".bar_menu").css("display", "none");
+    //   var c_height= $("#work").offset().top;
+    //   $(window).scrollTop(c_height + 70);
+    //   console.log(c_height);
+  });
+});
+
 /*---------------------------------------------------------------*/
 
 $(function() {
@@ -212,3 +221,4 @@ function preload() {
     $('<img src="http://chibra.co.jp/internship/index/images/people/uchida2.png">');
     $('<img src="http://chibra.co.jp/internship/index/images/people/otaki2.png">');
 }
+
