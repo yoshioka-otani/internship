@@ -716,7 +716,7 @@ header div.gnavi a{
   width: 100%;
   text-align: left;
   position:relative;
-  padding : 24px 90px 25px 90px;
+  padding : 20px 60px 20px 60px;
   background-color :#33cc66;
   margin-top: 5px;
 }
@@ -758,7 +758,7 @@ header div.gnavi a{
 		font-size:18px !important;
 	}
 	#voice .mbox {
-		padding : 20px 50px 20px 50px !important;
+		padding : 20px 40px 20px 40px !important;
 	}
 	.ishiduka p:nth-child(2), .hasegawa p:nth-child(2), .hanashita p:nth-child(2){
 		font-size:16px !important;
@@ -775,7 +775,7 @@ header div.gnavi a{
 		font-size:16px !important;
 	}
 	#voice .mbox {
-		padding : 20px 40px 20px 40px !important;
+		padding : 20px 20px 20px 20px !important;
 	}
 	.ishiduka ruby:nth-child(3), .hasegawa ruby:nth-child(3), .hanashita ruby:nth-child(3) {
 		font-size: 16px !important;
