@@ -20,10 +20,10 @@ body {
 	min-width: 1056px;
 	font-size:14px;
 	line-height:1;
-	font-family: 'Corporate Logo-Bold', sans-serif !important;
+	font-family: 'Noto Sans Japanese', sans-serif !important;
 }
 p {
-	font-family: 'Corporate Logo-Bold', sans-serif !important;
+	font-family: 'Noto Sans Japanese', sans-serif !important;
 }	
 #wrap{
 	height:100%;
@@ -682,7 +682,7 @@ header div.gnavi a{
 /*-------------------voice----------------------*/
 #voice .subtitle {
 	background-image: url(../../index/images/title/voice.svg);
-	margin-bottom: 25px;
+	margin-bottom: 24px;
 }
 #voice {
 	width: 100%;
@@ -694,13 +694,9 @@ header div.gnavi a{
 }
 
 #voice .box {
-    /* float: left; */
-    height: 150px;
-    width: 170px;
+    width: 200px;
     text-align: center;
-    font-size: 12px;
-    font-weight: 550;
-    border: solid 3px #33cc66;
+    border: solid 4px #33cc66;
     position: relative;
     margin: 0 3% 12px 3%;
 }
@@ -717,150 +713,76 @@ header div.gnavi a{
 }
 #voice .mbox {
   float: left;
-  height:230px;
   width: 100%;
   text-align: left;
-  font-weight:550;
-  font-size: 12px;
-  border: solid 2px transparent;
   position:relative;
+  padding : 24px 90px 25px 90px;
+  background-color :#33cc66;
+  margin-top: 5px;
 }
-
-/*#voice .ishiduka-article{*/
-/*	display: none;*/
-/*}*/
-
 #voice .hasegawa-article{
 	display: none;
 }
-
-
 #voice .hanashita-article{
 	display: none;
 }
-#voice .mbox {
-  padding : 24px 90px 25px 90px;
-  border: solid 1px transparent;
-  background-color :#33cc66;
-  margin-top: 5px;
-} 
 #voice .mbox p {
 	line-height: 135%;
-	font-family:"ＭＳ Ｐゴシック",sans-serif;
-	font-size: 12px;
 	color: white;
 }
-
-#voice .box p {
-	line-height: normal;
-}
-#voice .m-top {
-	position: absolute;
-    width: 100%;
-}
-
-#voice .ishiduka .triangle {
-  /*display: none;*/
-  border-bottom: 15px solid #33cc66;
-  border-right: 15px solid transparent;
-  border-left: 15px solid transparent;
-  margin-left: -10px;
-  position: absolute;
-  left: 50%;
+#voice .triangle {
+	border-bottom: 15px solid #33cc66;
+	border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    margin-left: -10px;
+    position: absolute;
+    left: 50%;
 }
 #voice .hasegawa .triangle {
   display: none;
-  border-bottom: 15px solid #33cc66;
-  border-right: 15px solid transparent;
-  border-left: 15px solid transparent;
-  margin-left: -10px;
-  position: absolute;
-  left: 50%;
 }
 #voice .hanashita .triangle {
   display: none;
-  border-bottom: 15px solid #33cc66;
-  border-right: 15px solid transparent;
-  border-left: 15px solid transparent;
-  margin-left: -10px;
-  position: absolute;
-  left: 50%;
+}
+#voice .box p:nth-child(5){
+	height: 16px;
+}
+#voice .box p:nth-child(6),.box p:nth-child(7),.box p:nth-child(8){
+	line-height: 1.4;
 }
 @media screen and (min-width:401px) and (max-width:768px) {
-	/*iPhone6 ~ iPad*/
-	#voice .box p {
-		font-size:10px;
-	}
-}
-@media screen and (max-width: 400px) {
-	/*~ iPhone6*/
-	#voice .box p {
-		font-size: 7px;
-		
-	}
-}
-@media screen and (min-width:401px) and (max-width:768px) {
-	/*iPhone6 ~ iPad*/
 	#voice .mbox p:nth-child(2), #voice .mbox p:nth-child(6) {
-		font-size:11.5px !important;
+		font-size:14px !important;
 	}
 	#voice .mbox p:nth-child(1), #voice .mbox p:nth-child(5) {
-		font-size:13px !important;
+		font-size:18px !important;
 	}
-}
-
-@media screen and (max-width: 400px) {
-	/*~ iPhone6*/
-	#voice .mbox p:nth-child(2), #voice .mbox p:nth-child(6) {
-		font-size:10px !important;
-	}
-	#voice .mbox p:nth-child(1), #voice .mbox p:nth-child(5) {
-		font-size:12px !important;
-		color: white;
-	}
-}
-@media screen and (min-width:401px) and (max-width:768px) {
-	/*iPhone6 ~ iPad*/
 	#voice .mbox {
 		padding : 20px 50px 20px 50px !important;
 	}
+	.ishiduka p:nth-child(2), .hasegawa p:nth-child(2), .hanashita p:nth-child(2){
+		font-size:16px !important;
+	}
+	.ishiduka ruby:nth-child(3), .hasegawa ruby:nth-child(3),.hanashita ruby:nth-child(3) {
+		font-size:16px !important;
+	}
 }
 @media screen and (max-width: 400px) {
-	/*~ iPhone6*/
+	#voice .mbox p:nth-child(2), #voice .mbox p:nth-child(6) {
+		font-size:12px !important;
+	}
+	#voice .mbox p:nth-child(1), #voice .mbox p:nth-child(5) {
+		font-size:16px !important;
+	}
 	#voice .mbox {
 		padding : 20px 40px 20px 40px !important;
-		
-		
 	}
-}
-@media screen and (min-width:401px) and (max-width:768px) {
-	/*iPhone6 ~ iPad*/
-	.ishiduka p:nth-child(2), .hasegawa p:nth-child(2), .hanashita p:nth-child(2){
-		font-size:14px !important;
-	}
-}
-@media screen and (max-width: 400px) {
-	/*~ iPhone6*/
-	.ishiduka p:nth-child(2), .hasegawa p:nth-child(2), .hanashita p:nth-child(2){
-		font-size: 10px !important;
-		
-	}
-}
-@media screen and (min-width:401px) and (max-width:768px) {
-	/*iPhone6 ~ iPad*/
-	.ishiduka ruby:nth-child(3), .hasegawa ruby:nth-child(3),.hanashita ruby:nth-child(3) {
-		font-size:14px !important;
-	}
-}
-@media screen and (max-width: 400px) {
-	/*~ iPhone6*/
 	.ishiduka ruby:nth-child(3), .hasegawa ruby:nth-child(3), .hanashita ruby:nth-child(3) {
-		font-size: 14px !important;
-		
+		font-size: 16px !important;
 	}
-}
-@media screen and (max-width: 400px) {
-	/*~ iPhone6*/
+	.ishiduka p:nth-child(2), .hasegawa p:nth-child(2), .hanashita p:nth-child(2){
+		font-size: 16px !important;
+	}
 	#voice rt {
 		display: none;
 	}

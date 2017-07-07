@@ -81,7 +81,7 @@ $(window).on('click ready resize', function(){
             //     displayhelp("hanashita");
             // }
       }
-      var b_height1 = 40 + $('.e_height1 > ruby:eq(0)').height() + $('.e_height1 > p:eq(0)').height() + $('.e_height1 > p:eq(1)').height() + $('.e_height1 > p:eq(2)').height() + $('.e_height1 > p:eq(3)').height() + $('.e_height1 > p:eq(4)').height();
+      var b_height1 = 60 + $('.e_height1 > ruby:eq(0)').height() + $('.e_height1 > p:eq(0)').height() + $('.e_height1 > p:eq(1)').height() + $('.e_height1 > p:eq(2)').height() + $('.e_height1 > p:eq(3)').height() + $('.e_height1 > p:eq(4)').height();
       $('.ishiduka').css('height', b_height1 + 'px');
       $('.hasegawa').css('height', b_height1 + 'px');
       $('.hanashita').css('height', b_height1 + 'px');

@@ -222,3 +222,33 @@ function preload() {
     $('<img src="http://chibra.co.jp/internship/index/images/people/otaki2.png">');
 }
 
+// ----------------------------------------------------------------------------------
+
+var $preload = $('.preload');
+var imgSrcs = [];
+ 
+$preload.each(function(){
+    imgSrcs.push($(this).attr('src'));
+});
+ 
+var loader = new $.ImgLoader({
+    srcs : imgSrcs, //画像などのパスを配列に格納
+    pipesize: 2, //同時にロードできる数の上限
+    delay: 500,  //次のロードまでの遅延をミリ秒で指定
+    timeout: 500,  //タイムアウトまでの時間をミリ秒で指定
+    useXHR2: false //XMLHttpRequestVersion2を利用するかどうか
+});
+ 
+loader.on('progress', function(progress){
+    var prog = progress.loadedRatio; //進捗率を取得
+});
+ 
+loader.on('itemload', function($img){
+    console.log($img);
+});
+ 
+loader.on('allload', function($img){
+    console.log('complete');
+});
+ 
+loader.load();  //ローディングを実行
