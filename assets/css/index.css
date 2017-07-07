@@ -169,6 +169,7 @@ header div.gnavi a{
 	#keyvisual div.people div.p-box{
 		white-space:nowrap;
 		text-align:center;
+		font-size: 0 !important;
 	}
 	#keyvisual div.people div.p-box p{
 		display:inline-block;
@@ -192,6 +193,7 @@ header div.gnavi a{
 	#keyvisual div.people div.p-box{
 		white-space:nowrap;
 		text-align:center;
+		font-size: 0 !important;
 	}
 	#keyvisual div.people div.p-box p{
 		display:inline-block;
