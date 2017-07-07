@@ -470,7 +470,7 @@ header div.gnavi a{
 		width: 48%;
 	}
 	#work > p {
-		font-size: 20px !important;
+		font-size: 16px !important;
 	}
 }
 @media screen and (max-width: 400px) {
@@ -478,7 +478,7 @@ header div.gnavi a{
 		width: 100%;
 	}
 	#work > p {
-		font-size: 16px !important;
+		font-size: 14px !important;
 	}
 }
 /*-------------------talk----------------------*/
@@ -782,6 +782,9 @@ header div.gnavi a{
 	}
 	.ishiduka p:nth-child(2), .hasegawa p:nth-child(2), .hanashita p:nth-child(2){
 		font-size: 16px !important;
+	}
+	.box p:nth-child(6),.box p:nth-child(7),.box p:nth-child(8){
+		font-size: 12px !important;
 	}
 	#voice rt {
 		display: none;
