@@ -17,8 +17,8 @@
 }
 @media screen and (min-width:401px) and (max-width:768px) {
 	.talk_top {
-	    background-image: url();
-	    padding-bottom: calc();
+	    background-image: url(../../index/images/talk/link/talk_top3.png);
+	    padding-bottom: calc(100%*270/670);
 	}
 	.talk_bottom {
 	    background-image: url(../../index/images/talk/link/talk_bottom3.png);
