@@ -750,6 +750,9 @@ header div.gnavi a{
 #voice .box p:nth-child(6),.box p:nth-child(7),.box p:nth-child(8){
 	line-height: 1.4;
 }
+#voice .mbox p:nth-child(1), #voice .mbox p:nth-child(5) {
+	font-size:18px !important;
+}
 @media screen and (min-width:401px) and (max-width:768px) {
 	#voice .mbox p:nth-child(2), #voice .mbox p:nth-child(6) {
 		font-size:14px !important;
