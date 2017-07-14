@@ -720,6 +720,13 @@ header div.gnavi a{
   background-color :#33cc66;
   margin-top: 5px;
 }
+@media screen and (min-width:769px) {
+	#voice .mbox {
+		width: calc(12% + 600px);
+		margin: 5px auto 0 auto;
+		float: none;
+	}
+}
 #voice .hasegawa-article{
 	display: none;
 }

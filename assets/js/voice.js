@@ -58,17 +58,26 @@ $(window).on('click ready resize', function(){
           displayhelp("ishiduka");
           displayhelp2("hasegawa");
           displayhelp2("hanashita");
-          $('#overview').css('margin-top', m_height1 + 110 + 'px');
+          if($(window).width() >= 769)
+            $('#overview').css('margin-top', 20 + 'px');
+          else
+            $('#overview').css('margin-top', m_height1 + 110 + 'px');
       }else if($('.hasegawa-article').css('display') == 'block'){
           displayhelp("hasegawa");
           displayhelp2("ishiduka");
           displayhelp2("hanashita");
-          $('#overview').css('margin-top', m_height2 + 110 + 'px');
+          if($(window).width() >= 769)
+            $('#overview').css('margin-top', 20 + 'px');
+          else
+            $('#overview').css('margin-top', m_height2 + 110 + 'px');
       }else if($('.hanashita-article').css('display') == 'block'){
           displayhelp("hanashita");
           displayhelp2("ishiduka");
           displayhelp2("hasegawa");
-          $('#overview').css('margin-top', m_height3 + 110 + 'px');
+          if($(window).width() >= 769)
+            $('#overview').css('margin-top', 20 + 'px');
+          else
+            $('#overview').css('margin-top', m_height3 + 110 + 'px');
       }else{
           $('#overview').css('margin-top', 25 + 'px');
             // if (jQuery(":hover")[5].outerHTML.match(/ishiduka/)) {
